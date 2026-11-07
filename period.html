@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="日本入浴史。選んだ時代の入浴風景と解説を紹介します。">
+  <title>作品を見る｜日本入浴史</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <a class="site-title" href="index.html">日本入浴史</a>
+      <nav class="header-nav">
+        <a class="header-link" href="eras.html">時代選択</a>
+        <a class="header-link" href="references.html">参考資料</a>
+      </nav>
+    </header>
+
+    <section class="page-heading">
+      <p class="eyebrow">BATHING CULTURE IN JAPAN</p>
+      <h1 id="period-title">作品を見る</h1>
+      <p id="period-subtitle">画像を選ぶと、解説を読むことができます。</p>
+    </section>
+
+    <div id="works-status" class="status-message" role="status">作品を読み込んでいます…</div>
+    <section id="works-list" class="works-list" aria-live="polite"></section>
+
+    <div class="page-footer">
+      <a href="eras.html">時代選択へ戻る</a>
+      <a href="references.html">参考資料</a>
+    </div>
+  </main>
+
+  <dialog class="lightbox" id="image-dialog">
+    <form method="dialog" class="lightbox__close-row">
+      <button class="lightbox__close" aria-label="閉じる">閉じる ×</button>
+    </form>
+    <img id="lightbox-image" src="" alt="">
+    <div class="lightbox__caption" id="lightbox-caption"></div>
+  </dialog>
+</body>
+</html>

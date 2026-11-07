@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="縄文時代から昭和まで、日本の入浴文化の移り変わりをたどる個人制作の歴史紹介サイトです。">
+  <title>日本入浴史</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="cover">
+    <div class="cover__inner">
+      <p class="eyebrow">日本の暮らしと入浴文化</p>
+      <h1>日本入浴史</h1>
+
+      <figure class="cover__visual">
+        <img src="images/top_rotenburo.png" alt="障子のある和風旅館の露天風呂。木の浴槽から湯気が立ち、庭には石灯籠や木々が見える。">
+      </figure>
+
+      <p class="intro">
+        人々は、昔どのように身体を洗い、湯に浸かっていたのでしょうか。<br>
+        縄文時代から昭和まで、日本の入浴文化の移り変わりをたどります。
+      </p>
+
+      <form class="entry-form" action="eras.html" method="get">
+        <label class="age-check">
+          <input type="checkbox" name="age_confirm" value="adult" required>
+          <span>私は18歳以上です</span>
+        </label>
+        <button class="enter-link" type="submit">入場する <span aria-hidden="true">→</span></button>
+      </form>
+
+      <section class="notice" aria-labelledby="notice-title">
+        <h2 id="notice-title">ご覧になる前に</h2>
+        <p>
+          このサイトには、歴史上の入浴風景を再現した画像が含まれます。
+          時代や場面によっては裸体の表現がありますので、ご承知のうえお進みください。
+        </p>
+        <p class="notice__small">
+          掲載画像には、史料に基づく表現のほか、当時の暮らしをもとに想像・復元した表現も含まれます。
+        </p>
+      </section>
+
+      <footer class="cover__footer">
+        <a href="references.html">参考資料</a>
+        <span>個人制作の歴史紹介サイト</span>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
